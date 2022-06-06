@@ -310,6 +310,7 @@ body._lock {
 
 .menu__link svg {
   max-height: 75px;
+  max-width: 100%;
   margin-bottom: 17px;
 }
 
