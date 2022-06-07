@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Корзина</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220607114810">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__block">
+        <div class="header__logo">
+            <a href="#" class="header__logo-link">amani.taro</a>
+        </div>
+        <div class="header__cart">
+            <a href="#" class="header__cart-link">
+                <svg>
+                    <use xlink: href="img/icons/icons.svg#cart"></use>
+                </svg>
+                <span>1</span>
+            </a>
+        </div>
+        <a href="#" class="header__menu-icon menu-icon">
+            меню
+        </a>
+    </div>
+</header>
+
+<nav class="menu">
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a href="#" class="menu__link">
+                <svg>
+                    <use xlink: href="img/icons/icons.svg#link1"></use>
+                </svg>
+                Магическое трио
+            </a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__link">
+                <svg>
+                    <use xlink: href="img/icons/icons.svg#link2"></use>
+                </svg>
+                Защита очищение
+            </a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__link">
+                <svg>
+                    <use xlink: href="img/icons/icons.svg#link3"></use>
+                </svg>
+                Финансы и успех
+            </a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__link">
+                <svg>
+                    <use xlink: href="img/icons/icons.svg#link4"></use>
+                </svg>
+                Любовь и гармония
+            </a>
+        </li>
+    </ul>
+</nav>
+
+        <div class="cart">
+            <div class="cart__container">
+                <div class="cart__body">
+                    <h2 class="cart__title _title">Корзина</h2>
+
+                    <div class="cart_goods goods-cart">
+                        <div class="goods-cart__item">
+                            <div class="goods-cart__image">
+                                <picture><source srcset="img/cart/cart-img.webp" type="image/webp"><img src="img/cart/cart-img.jpg" alt="Image"></picture>
+                            </div>
+                            <div class="goods-cart__info">
+                                <div class="goods-cart__header">
+                                    <div class="goods-cart__title _title">Свеча “Любовь и гармония”</div>
+                                    <div class="goods-cart__count">
+                                        <input type="text" value="1" name="count" disabled>
+                                        <label for="count">шт.</label>
+                                        <div class="goods-cart__btns">
+                                            <button class="goods-cart__plus"></button>
+                                            <button class="goods-cart__minus"></button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="goods-cart__del"><span>+</span></a>
+                                </div>
+                                <div class="goods-cart__price _title">
+                                    Цена: <span>4 500 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="goods-cart__item">
+                            <div class="goods-cart__image">
+                                <picture><source srcset="img/cart/cart-img.webp" type="image/webp"><img src="img/cart/cart-img.jpg" alt="Image"></picture>
+                            </div>
+                            <div class="goods-cart__info">
+                                <div class="goods-cart__header">
+                                    <div class="goods-cart__title _title">Свеча “Любовь и гармония”</div>
+                                    <div class="goods-cart__count">
+                                        <input type="text" value="1" name="count" disabled>
+                                        <label for="count">шт.</label>
+                                        <div class="goods-cart__btns">
+                                            <button class="goods-cart__plus"></button>
+                                            <button class="goods-cart__minus"></button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="goods-cart__del"><span>+</span></a>
+                                </div>
+                                <div class="goods-cart__price _title">
+                                    Цена: <span>4 500 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="goods-cart__item-res">
+                            <button type="button" class="goods-cart__clear">Очистить корзину</button>
+                            <div class="goods-cart__result _title">
+                                Стоимость: <span>9 000 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="cart__form form-cart">
+                        <div class="form-cart__block">
+                            <div class="form-cart__left">
+
+                                <h2 class="form-cart__title _title">Контактные данные:</h2>
+                                <div class="form-cart__input _txt">
+                                    Email *
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="form-cart__input _txt">
+                                    Получатель *
+                                    <input type="text" placeholder="Получатель">
+                                </div>
+                                <div class="form-cart__input _txt">
+                                    Телефон *
+                                    <input type="text" placeholder="Телефон">
+                                </div>
+                                <div class="form-cart__input _txt">
+                                    Комментарий
+                                    <input type="text" placeholder="Комментарий">
+                                </div>
+
+                                <h2 class="form-cart__title _title">Способы оплаты:</h2>
+                                <div class="form-cart__options options-radio _txt">
+                                    <div class="options-radio__item">
+                                        Оплата картой - полная оплата
+                                        <input type="radio" name="pay-method" checked value="card">
+                                    </div>
+                                    <div class="options-radio__item">
+                                        Оплата из-за рубежа
+                                        <input type="radio" name="pay-method" value="outside">
+                                    </div>
+                                </div>
+
+                                <h2 class="form-cart__title _title">Варианты доставки:</h2>
+                                <div class="form-cart__options options-radio _txt">
+                                    <div class="options-radio__item">
+                                        <picture><source srcset="img/cart/delivery1.webp" type="image/webp"><img src="img/cart/delivery1.png" alt=""></picture>
+                                        <input type="radio" name="delivery" checked value="curier">
+                                    </div>
+                                    <div class="options-radio__item">
+                                        <picture><source srcset="img/cart/delivery2.webp" type="image/webp"><img src="img/cart/delivery2.png" alt=""></picture>
+                                        <input type="radio" name="delivery" value="location">
+                                    </div>
+                                    <div class="options-radio__item">
+                                        Почта россии
+                                        <input type="radio" name="delivery" value="post">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-cart__right">
+                                <h2 class="form-cart__title _title">Адрес доставки:</h2>
+                                <input type="text" placeholder="Почтовый индекс *">
+                                <input type="text" placeholder="Область">
+                                <input type="text" placeholder="Город *">
+                                <input type="text" placeholder="Улица">
+                                <input type="text" placeholder="Дом">
+                                <input type="text" placeholder="Подъезд">
+                                <input type="text" placeholder="Этаж">
+                                <input type="text" placeholder="Квартира">
+                                <textarea placeholder="Адрес одной строкой"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="form-cart__btn _btn">Перейти к оплате</button>
+                    </form>
+
+                    <div class="cart__empty empty-cart _hidden">
+                        <div class="empty-cart__title _title">Товаров пока нет</div>
+                        <div class="empty-cart__txt _txt">Воспользуйтесь каталогом, чтобы добавить товар</div>
+                        <a href="" class="empty-cart__btn _btn">Перейти в каталог</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+    <div class="footer__block">
+        <div class="footer__left">
+            <a href="" class="footer__link">Страница обратной связи</a>
+            <div class="footer__contact">
+                Электронный адрес:
+                <a href="mailto:info@taroirena.ru" class="footer__contact-link">
+                    info@taroirena.ru
+                </a>
+            </div>
+            <div class="footer__contact">
+                Телефон:
+                <a href="tel:+79183630352" class="footer__contact-link">
+                    +7-918-363-03-52
+                </a>
+            </div>
+        </div>
+        <div class="footer__right">
+            <div class="footer__info">
+                <span>ИП Саваськов Александр Сергеевич</span>
+                <span>ОГРНИП 316231100051589</span>
+                <span>ИНН 262310420267</span>
+            </div>
+            <a href="" class="footer__link">Договор-оферта</a>
+            <a href="" class="footer__link">О рассрочке</a>
+            <a href="" class="footer__link">Соглашение об обработке персональных данных</a>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="js/app.min.js?_v=20220607114810"></script>
+</body>
+
+</html>
