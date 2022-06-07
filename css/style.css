@@ -707,6 +707,14 @@ button.swiper-pagination-bullet {
   height: 65px;
 }
 
+.header.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+}
+
 .header__block {
   display: flex;
   align-items: center;
