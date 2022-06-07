@@ -186,8 +186,15 @@ body._lock {
   background: rgba(54, 56, 56, 0.4);
   border-radius: 50%;
   overflow: hidden;
-  opacity: 0;
   transition: all 0.3s linear;
+}
+
+._touch .video__btns {
+  opacity: 1;
+}
+
+._pc .video__btns {
+  opacity: 0;
 }
 
 .video__play,
@@ -1193,10 +1200,17 @@ button.swiper-pagination-bullet {
 
 .slider-product__desc {
   text-align: center;
-  margin: 50px 0;
+  margin: 50px auto;
+  max-width: 1200px;
 }
 
-.slider-product__cards {
+.slider-product__complect {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.slider-product__cards,
+.slider-product__complect {
   position: relative;
 }
 
